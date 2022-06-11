@@ -1,0 +1,10 @@
+^C:\USERS\CLAUDIO CÓRTES M}\DESKTOP\CARPETAS\UNIVERSIDAD\TERCER AÑO\ESTRUTURA DE DATOS\INTENTO\BUILD\CMAKEFILES\E9246BDCFF394304E5FF6C4CE9EDD52F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Claudio Córtes M}/Desktop/Carpetas/Universidad/Tercer Año/Estrutura de Datos/Intento" "-BC:/Users/Claudio Córtes M}/Desktop/Carpetas/Universidad/Tercer Año/Estrutura de Datos/Intento/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Claudio Córtes M}/Desktop/Carpetas/Universidad/Tercer Año/Estrutura de Datos/Intento/build/intento.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
